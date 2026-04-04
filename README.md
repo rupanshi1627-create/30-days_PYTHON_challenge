@@ -1,17 +1,5 @@
 30 Days Python Interview Preparation Challenge
 
-Are you confused about what to study in Python, where to start, and how to become interview-ready?
-
-You’re not alone.
-
-Many beginners struggle with:
-
-Too many resources
-No clear direction
-Learning concepts but not knowing how to apply them
-
-That’s exactly why this repository exists.
-
 WHAT IS THIS REPOSITORY?
 
 This is a structured 30-day Python challenge designed to take you from:
@@ -21,65 +9,72 @@ Beginner → Confident Problem Solver → Interview Ready
 Instead of random learning, this roadmap focuses on:
 
 Core concepts that interviewers actually ask
+
 Hands-on coding practice
-Clear logic building
-----------------------------------------------------------------------------
-WHAT YOU WILL FIND HERE?
 
-Inside this repository, everything is organized in a simple and practical way:
+----------------------------------------------------------------------------------
+Topic--
+10Days01 (FOUNDATION – Logic + Basics)
+1-Reverse a string
 
-Topic-wise Learning
+2-Check palindrome string
 
-Each topic includes:
+3-Count vowels & consonants
 
-Clear explanation (what & why)
-Easy-to-understand concepts
-Clean and beginner-friendly code
-Problem-Based Approach
+4-Find largest & smallest in list
 
-You won’t just read — you’ll solve.
+5-Sum of elements in list
 
-Carefully selected interview-level questions
-Step-by-step logic building
-Multiple approaches where needed
-Strong Foundations
------------------------------------------------------------------------
-Covers all important areas:
-Example--
-Strings
-Lists / Arrays
-Logic building
-Problem-solving patterns
-Consistency-Focused Plan
-Daily targets
-Gradual difficulty increase
-Designed to build discipline + confidence
-------------------------------------------------------------------------------------------
-HOW TO USE THIS REPOSITORY?
+6-Remove duplicates from list
 
-Follow the plan day by day
-Try solving problems on your own first
-Then refer to the solutions
-Focus on understanding logic, not memorizing code
-------------------------------------------------------------------------------------------
-GOAL OF THIS CHALLENGE
+7-Find second largest number
 
-By the end of these 30 days, you will:
-Understand Python fundamentals clearly
-Be able to solve common interview problems
-Think logically and write clean code
-Feel confident while facing coding interviews
--------------------------------------------------------------------------------------------
-WHO IS THIS FOR?
+8-Check prime number
 
-Beginners starting Python
-Students preparing for interviews
-Anyone who feels lost or confused about what to study
--------------------------------------------------------------------------------------------
-FINAL NOTE
+9-Print Fibonacci series
 
-This is not just a repository.
-It’s a system to build consistency, clarity, and confidence.
-If you complete this challenge honestly,
-you won’t just learn Python —
-you’ll learn how to think like a programmer.
+10-Factorial of a number
+
+---------------------------------------------------------------------------------------------
+10Days02 (STRONG LOGIC BUILDING)
+11-Check anagram (2 strings same ya nahi)
+
+12-Count frequency of each character
+
+13-Find missing number in array
+
+14-Merge two sorted lists
+
+15-Find common elements in 2 lists
+
+16-Sort list without using sorted()
+
+17-Move all zeros to end
+
+18-Find duplicate elements
+
+19-String compression (aaabb → a3b2)
+
+20-Find first non-repeating character
+
+---------------------------------------------------------------------------------------------------------
+10Days03 (DSA + PATTERNS)
+21-Binary search
+
+22-Two sum problem
+
+23-Check balanced parentheses
+
+24-Reverse words in a sentence
+
+25-Find longest word in string
+
+26-Kadane’s Algorithm (max subarray sum)
+
+27-Rotate array
+
+28-Find intersection of arrays
+
+29-Sliding window (max sum of subarray of size k)
+
+30-Count subarrays with given sum
