@@ -13,7 +13,8 @@ Core concepts that interviewers actually ask
 Hands-on coding practice
 
 ----------------------------------------------------------------------------------
-Topic--
+Topics--
+
 10Days01 (FOUNDATION – Logic + Basics)
 1-Reverse a string
 
