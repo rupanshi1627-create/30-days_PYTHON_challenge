@@ -1,0 +1,132 @@
+---What is a String in Programming?
+
+A string is a sequence of characters written inside quotes.
+
+---Characters can be:
+
+Letters → a, b, c
+Numbers → 1, 2, 3
+Symbols → @, #, !
+Spaces → " " (yes, space is also a character)
+
+Definition (Simple)
+
+A string is a collection of characters stored together in order.
+
+---Examples of Strings
+"hello"
+"Roo"
+"12345"
+"AI Engineer"
+"Hello@123"
+
+All of these are strings because they are inside quotes.
+
+How Strings are Created
+
+In Python, strings are created using:
+
+Double quotes " "
+Single quotes ' '
+name = "Roo"
+city = 'Delhi'
+
+------ Key Properties of Strings --------
+
+1. Strings are Ordered
+
+Each character in a string has a fixed position.
+
+s = "Roo"
+Index	Character
+0	      R
+1	      o
+2	      o
+
+👉 This position is called an index.
+
+---------------------------------------------------------
+2. Indexing (Accessing Characters)
+
+You can access characters using index numbers.
+
+s = "Roo"
+
+print(s[0])  # R
+print(s[1])  # o
+
+--------------------------------------------------------
+3. Negative Indexing
+
+You can also access characters from the end.
+
+print(s[-1])  # o (last character)
+print(s[-2])  # o
+
+👉 -1 means last, -2 means second last, etc.
+
+-----------------------------------------------------
+4. Strings are Immutable ❗
+
+👉 This is VERY important.
+
+Once a string is created, you cannot change its characters directly.
+
+s = "Roo"
+s[0] = "M"   #ERROR
+
+👉 Instead, you must create a new string.
+
+----------------------------------------------------
+5. Strings are Iterable
+
+👉 You can loop through each character.
+
+for ch in "Roo":
+    print(ch)
+
+Output:
+
+R
+o
+o
+----------------------------------------------------
+6. Strings Support Slicing
+
+Slicing means extracting a part of a string.
+
+s = "hello"
+
+print(s[0:2])   # he
+print(s[1:4])   # ell
+Special Slicing (Reverse)
+s[::-1]
+
+👉 This reverses the string.
+
+------------------------------------------------------
+7. Strings can be Combined (Concatenation)
+first = "Hello"
+second = "World"
+
+print(first + " " + second)
+
+Output:
+
+Hello World
+8. Strings have Useful Functions
+s = "Roo"
+
+print(s.lower())  # roo
+print(s.upper())  # ROO
+print(len(s))     # 3
+Real-Life Analogy
+
+Think of a string like a word written on paper:
+
+"HELLO"
+
+Each letter has a position
+You can read it
+You can’t change a letter without rewriting it
+
