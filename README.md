@@ -39,7 +39,7 @@ Topics--
 ---------------------------------------------------------------------------------------------
 10Days02 (STRONG LOGIC BUILDING)
 
-11-Check anagram (2 strings same ya nahi)
+11-Check anagram (2 strings same or not)
 
 12-Count frequency of each character
 
