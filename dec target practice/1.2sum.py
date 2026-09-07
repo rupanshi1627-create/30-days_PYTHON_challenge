@@ -1,19 +1,25 @@
-nums=[1,2,3,4,5,6,7,,8,9,10]
+# Test 1:
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+target = 10
+nums=[1,2,3,4,5,6,7,8,9,10]
 target=10
-#we have to find the pairs whose sum is 10 
-
-left=0 #we will start from left and consider that its the first nummber we are taking
+left=0
 right=len(nums)-1
+#create a empty list to stpre pairs
+pairs=[] # Changed 'pair' to 'pairs' to match usage
 
 while left<right:
-    current_sum=num[left]+num[right]
-    if current_sum==target:
-        print(num[left],num[right])
-    elif left<right:
-        left+=1
-    else:
-        right-=1
-
-#loop se bhaar
+  current_sum=nums[left]+nums[right]
+  if current_sum==target:
+    pairs.append((nums[left],nums[right]))
+    left+=1
+    right-=1
+  elif current_sum<target: # Corrected indentation
+    left+=1
+  else: # Corrected indentation
+    right-=1
+if pairs:
+  for pair in pairs:
+    print(pair[0],pair[1])
 else:
-print("no pair found")
+  print("no pairs found")
