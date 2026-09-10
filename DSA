@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPy/YVx8jDgSFi80y3vllOd",
+      "authorship_tag": "ABX9TyOufB28Em+/4C3VXS6mwlHM",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -259,19 +259,31 @@
         "while left<right:\n",
         "  if numbers[left]==0:\n",
         "    numbers[left],numbers[right-1]=numbers[right-1],numbers[left]\n",
+        "    new_nums.append(numbers[left])\n",
         "    new_nums.append(numbers[right-1])\n",
         "    right+=1\n",
         "    left-=1\n",
         "    break\n",
         "  left+=1\n",
-        "print(numbers)\n",
-        "print(new_nums)"
+        "print(numbers)"
       ],
       "metadata": {
-        "id": "Rv82FGYaufW6"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rv82FGYaufW6",
+        "outputId": "8fdace6e-c1c1-4dba-cf90-ef41ae27f8d8"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 0, 0, 0, 0]\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
