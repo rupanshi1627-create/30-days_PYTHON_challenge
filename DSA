@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPWT5Iq34jos+xl/DPK8bXs",
+      "authorship_tag": "ABX9TyP9CqNFJuJgydUWqfvtY9uz",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 9,
+      "execution_count": 7,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "nBt6qnXTCura",
-        "outputId": "4aefe5e5-1c37-4957-d8ca-cf4f746a9d02"
+        "outputId": "21822d58-68d1-4b37-cf4c-ff696985015e"
       },
       "outputs": [
         {
@@ -94,9 +94,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "XsH-ceDIo88a",
-        "outputId": "e8c8678a-fcd7-453c-c504-f030531b7f41"
+        "outputId": "8b9d498e-cf98-4f64-a0f1-d15f5615ef1b"
       },
-      "execution_count": 10,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
@@ -143,9 +143,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m-SA0vxQrTyz",
-        "outputId": "a55f84f5-0d5e-44f7-b395-a77568d08739"
+        "outputId": "40077a5e-456f-41e4-f4eb-a8bb6d734afb"
       },
-      "execution_count": 11,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -190,9 +190,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "SgcwKPJ7vjpC",
-        "outputId": "c88a1471-976e-409a-ac5e-0d26cc9bfad0"
+        "outputId": "cb518f4e-048a-4629-f3be-64d8de1372f2"
       },
-      "execution_count": 12,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
@@ -244,9 +244,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Scejx3daRgy-",
-        "outputId": "dfce80f5-1ad6-4d75-d1c0-ac2bc2b88d42"
+        "outputId": "a0192f1d-b359-4fd4-9e9b-d8138f7e9d43"
       },
-      "execution_count": 13,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "stream",
@@ -284,9 +284,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "QQ6Y07r6gkUe",
-        "outputId": "031af9fa-98da-40c4-ef1f-e8b83c5a9872"
+        "outputId": "da565a13-c48e-487b-e785-f3542574a45f"
       },
-      "execution_count": 14,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -299,12 +299,44 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "s=\"A man, a plan, a canal: Panama\"\n",
+        "\n",
+        "cleaned_s=''\n",
+        "for char in s:\n",
+        "  if char.isalnum():\n",
+        "    cleaned_s+=char.lower()\n",
+        "\n",
+        "left=0\n",
+        "right=len(cleaned_s)-1\n",
+        "is_palindrome=True\n",
+        "\n",
+        "while left<right:\n",
+        "       if cleaned_s[left]==cleaned_s[right]:\n",
+        "        left+=1\n",
+        "        right-=1\n",
+        "       else:\n",
+        "          is_palindrome=False\n",
+        "          break\n",
+        "print(is_palindrome)"
+      ],
       "metadata": {
-        "id": "BvRj86xDgnyK"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BvRj86xDgnyK",
+        "outputId": "f93aecfb-618a-4af9-aa14-e858b9618461"
       },
-      "execution_count": 14,
-      "outputs": []
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
     }
   ]
 }
