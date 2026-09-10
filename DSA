@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP9CqNFJuJgydUWqfvtY9uz",
+      "authorship_tag": "ABX9TyPy/YVx8jDgSFi80y3vllOd",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,23 +28,11 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 7,
+      "execution_count": null,
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "nBt6qnXTCura",
-        "outputId": "21822d58-68d1-4b37-cf4c-ff696985015e"
+        "id": "nBt6qnXTCura"
       },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "1 9\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "# Test 1:\n",
         "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
@@ -90,22 +78,10 @@
         "    print(\"no pair found\")"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "XsH-ceDIo88a",
-        "outputId": "8b9d498e-cf98-4f64-a0f1-d15f5615ef1b"
+        "id": "XsH-ceDIo88a"
       },
-      "execution_count": 8,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "2 10\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -139,25 +115,10 @@
         "    print(\"no pairs found\")"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "m-SA0vxQrTyz",
-        "outputId": "40077a5e-456f-41e4-f4eb-a8bb6d734afb"
+        "id": "m-SA0vxQrTyz"
       },
-      "execution_count": 9,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "1 9\n",
-            "2 8\n",
-            "3 7\n",
-            "4 6\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -186,25 +147,10 @@
         "  print(\"no pairs found\")"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "SgcwKPJ7vjpC",
-        "outputId": "cb518f4e-048a-4629-f3be-64d8de1372f2"
+        "id": "SgcwKPJ7vjpC"
       },
-      "execution_count": 10,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "0 8\n",
-            "1 7\n",
-            "2 6\n",
-            "3 5\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -240,22 +186,10 @@
         "print(max_water)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "Scejx3daRgy-",
-        "outputId": "a0192f1d-b359-4fd4-9e9b-d8138f7e9d43"
+        "id": "Scejx3daRgy-"
       },
-      "execution_count": 11,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "49\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -280,22 +214,10 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "QQ6Y07r6gkUe",
-        "outputId": "da565a13-c48e-487b-e785-f3542574a45f"
+        "id": "QQ6Y07r6gkUe"
       },
-      "execution_count": 12,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "True\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -321,22 +243,44 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "BvRj86xDgnyK",
-        "outputId": "f93aecfb-618a-4af9-aa14-e858b9618461"
+        "id": "BvRj86xDgnyK"
       },
-      "execution_count": 13,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "True\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers=[1,0,3,0,0,2,0]\n",
+        "new_nums=[]\n",
+        "left=0\n",
+        "right=len(numbers)-1\n",
+        "#ek baar check kro ki first one kya hai if 0 hai tehn usko replace kr do second vale se then second pe move karo and if 0 then swap with the next one\n",
+        "while left<right:\n",
+        "  if numbers[left]==0:\n",
+        "    numbers[left],numbers[right-1]=numbers[right-1],numbers[left]\n",
+        "    new_nums.append(numbers[right-1])\n",
+        "    right+=1\n",
+        "    left-=1\n",
+        "    break\n",
+        "  left+=1\n",
+        "print(numbers)\n",
+        "print(new_nums)"
+      ],
+      "metadata": {
+        "id": "Rv82FGYaufW6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "xoY4z6OIvBWw"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
