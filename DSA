@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNqZ8L7Ks+2WfazFHb5Z0Y5",
+      "authorship_tag": "ABX9TyPKF5PV7fhtYIXUXfkFCpsG",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -253,31 +253,45 @@
       "source": [
         "numbers=[1,0,3,0,0,2,0]\n",
         "\n",
-        "# Pointer for the next position to place a non-zero element\n",
-        "non_zero_ptr = 0\n",
+        "pos=0\n",
+        "# 'pos' ek counter/pointer hai jo track karta hai ki\n",
+        "# agla non-zero number array mein KAHAN likhna hai.\n",
+        "# Ye hamesha sirf AAGE (left se right) hi badhta hai, kabhi peeche nahi jaata —\n",
+        "# isliye ise \"same-direction pointer\" kehte hain.\n",
+        "for num in numbers:\n",
+        "  if num!=0:\n",
+        "    numbers[pos]=num\n",
+        "    pos+=1\n",
+        "# Agar num zero hai, toh if block ke andar kuch nahi hota —\n",
+        "    # loop apne aap agle number pe chala jaata hai (num update ho jaata hai),\n",
+        "    # lekin 'pos' apni jagah RUKA rehta hai, kyunki wahan ek \"khali slot\" hai\n",
+        "    # jo baad mein kisi non-zero number se ya phir zero se bharna hai\n",
+        "# Is point tak, array ke SHURU mein saare non-zero numbers\n",
+        "# apne sahi, original order mein aa chuke hain.\n",
+        "# Lekin array ke BAAKI bache hue positions (pos se end tak)\n",
+        "# abhi bhi PURANI (duplicate) values rakhte hain —\n",
+        "# jaise [1,3,2,0,0,2,0] jaisa kuch dikh sakta hai abhi\n",
+        "# (kyunki humne sirf overwrite kiya hai, kuch clear nahi kiya)\n",
+        "#pos' se lekar array ke end tak, ----\n",
+        "# ---- sab kuch 0 se replace kar do ----\n",
+        "for i in range(pos, len(numbers)):\n",
         "\n",
-        "# Iterate through the array\n",
-        "for i in range(len(numbers)):\n",
-        "    # If the current element is not zero, move it to the non_zero_ptr position\n",
-        "    if numbers[i] != 0:\n",
-        "        numbers[non_zero_ptr] = numbers[i]\n",
-        "        non_zero_ptr += 1\n",
+        "    # Ye saari positions ab \"extra/duplicate\" hain,\n",
+        "    # inhe seedha 0 bana do\n",
+        "    numbers[i] = 0\n",
         "\n",
-        "# Fill the rest of the array with zeros from non_zero_ptr onwards\n",
-        "while non_zero_ptr < len(numbers):\n",
-        "    numbers[non_zero_ptr] = 0\n",
-        "    non_zero_ptr += 1\n",
-        "\n",
-        "print(numbers)"
+        "# ---- Final result print karo ----\n",
+        "print(numbers)\n",
+        "# Expected Output: [1, 3, 2, 0, 0, 0, 0]"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "Rv82FGYaufW6",
-        "outputId": "cb8e8e65-54de-4a98-c4c4-0931ceb7d6b1"
+        "outputId": "bd54cdf5-3859-4524-d315-8a5b13da34c4"
       },
-      "execution_count": 27,
+      "execution_count": 33,
       "outputs": [
         {
           "output_type": "stream",
