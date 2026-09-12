@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyODcLpRtpzgW4dtsnrI1pgV",
+      "authorship_tag": "ABX9TyMON8GS/Qjc01TNHZtnzFKX",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -550,9 +550,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "B9rfBLzAXAjw",
-        "outputId": "b4fa4cc6-5a2f-4e99-93a0-f62689cf89a4"
+        "outputId": "3af43daa-316d-4662-9a07-95bfdd568e66"
       },
-      "execution_count": 1,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -570,27 +570,26 @@
     {
       "cell_type": "code",
       "source": [
-        "#reverse string without using reverse inbuilt function\n",
         "text=\"roopsi\"\n",
         "new_s=''\n",
-        "for char in s:\n",
-        "  new_s=char+reverse\n",
-        "print(new_s)\n"
+        "for char in text:\n",
+        "  new_s=char+new_s\n",
+        "print(new_s)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "1dxTJwUwzge9",
-        "outputId": "08e3304b-d869-4ccd-e46b-fc68a2f12b70"
+        "id": "zDJIods534ca",
+        "outputId": "9e5bea35-91d5-4824-fe19-857ea452b40c"
       },
-      "execution_count": 8,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "oolleh\n"
+            "ispoor\n"
           ]
         }
       ]
