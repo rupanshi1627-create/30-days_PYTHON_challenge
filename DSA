@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO86xcdhOGYggbdYwwt1vk/",
+      "authorship_tag": "ABX9TyODcLpRtpzgW4dtsnrI1pgV",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 39,
+      "execution_count": null,
       "metadata": {
         "id": "nBt6qnXTCura",
         "colab": {
@@ -96,7 +96,7 @@
         },
         "outputId": "83b9a518-453d-4922-b040-faca1bb1d4d3"
       },
-      "execution_count": 40,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -145,7 +145,7 @@
         },
         "outputId": "8d7f8266-abf6-46cc-cac9-ee2ac487e7ee"
       },
-      "execution_count": 41,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -192,7 +192,7 @@
         },
         "outputId": "cb4f5256-328b-4dab-a86a-b744852737c3"
       },
-      "execution_count": 57,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -246,7 +246,7 @@
         },
         "outputId": "fbe46ea9-1f44-4eba-baf6-d20f6f8c6159"
       },
-      "execution_count": 55,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -286,7 +286,7 @@
         },
         "outputId": "a3838bb2-b848-4fb2-f479-3df865cba85e"
       },
-      "execution_count": 44,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -327,7 +327,7 @@
         },
         "outputId": "e9a32307-ccf9-4817-ef00-b9a8c37a3162"
       },
-      "execution_count": 54,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -381,7 +381,7 @@
         "id": "Rv82FGYaufW6",
         "outputId": "f34678fb-5e58-40aa-b27e-50a9eb1ca14f"
       },
-      "execution_count": 46,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -412,7 +412,7 @@
         },
         "outputId": "7f52529a-f662-4c06-cc5c-2b9eb05903cd"
       },
-      "execution_count": 47,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -433,7 +433,7 @@
       "metadata": {
         "id": "V16zAuNMVzAb"
       },
-      "execution_count": 48,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -478,7 +478,7 @@
         "print(\"Array after removing duplicates (first k elements are unique):\", nums[:k])\n",
         "print(\"Number of unique elements (k):\", k)"
       ],
-      "execution_count": 49,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -513,7 +513,7 @@
         "id": "oJeHCA-qWB-t",
         "outputId": "74e42116-6b86-4fd8-ba28-529d0c0747ee"
       },
-      "execution_count": 52,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -550,9 +550,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "B9rfBLzAXAjw",
-        "outputId": "6686befe-ddf2-475a-cc73-cba100bf22b2"
+        "outputId": "b4fa4cc6-5a2f-4e99-93a0-f62689cf89a4"
       },
-      "execution_count": 58,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -563,6 +563,34 @@
             "Count: 8\n",
             "Array: [1, 2, 3, 4, 5, 6, 8, 9, 5, 6, 8, 9]\n",
             "First 8 elements are unique: [1, 2, 3, 4, 5, 6, 8, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#reverse string without using reverse inbuilt function\n",
+        "text=\"roopsi\"\n",
+        "new_s=''\n",
+        "for char in s:\n",
+        "  new_s=char+reverse\n",
+        "print(new_s)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1dxTJwUwzge9",
+        "outputId": "08e3304b-d869-4ccd-e46b-fc68a2f12b70"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "oolleh\n"
           ]
         }
       ]
