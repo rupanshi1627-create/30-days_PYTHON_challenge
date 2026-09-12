@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMON8GS/Qjc01TNHZtnzFKX",
+      "authorship_tag": "ABX9TyN3M+z6vyNLK/zR3vo7e5jS",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -552,7 +552,7 @@
         "id": "B9rfBLzAXAjw",
         "outputId": "3af43daa-316d-4662-9a07-95bfdd568e66"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -581,9 +581,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "zDJIods534ca",
-        "outputId": "9e5bea35-91d5-4824-fe19-857ea452b40c"
+        "outputId": "69475910-440f-45b7-a0a7-0d7b8207c441"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -593,6 +593,33 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#given string is palindrome or not\n",
+        "\n",
+        "str='khamoshi'\n",
+        "\n",
+        "#two pointer\n",
+        "left=0\n",
+        "right=len(str)-1\n",
+        "is_palindrome= True\n",
+        "\n",
+        "while left<right:\n",
+        "  if str[left]==str[right]:\n",
+        "    is_palindrome=True\n",
+        "    left+=1\n",
+        "    right-=1\n",
+        "  else:\n",
+        "    is_palindrome=False\n",
+        "print(is_palindrome)"
+      ],
+      "metadata": {
+        "id": "7wtykjLL5nko"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
