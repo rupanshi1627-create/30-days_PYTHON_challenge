@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPKF5PV7fhtYIXUXfkFCpsG",
+      "authorship_tag": "ABX9TyO86xcdhOGYggbdYwwt1vk/",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,11 +28,23 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 39,
       "metadata": {
-        "id": "nBt6qnXTCura"
+        "id": "nBt6qnXTCura",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9be9d693-40f8-47ca-cddf-5fc8b282c9bb"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 9\n"
+          ]
+        }
+      ],
       "source": [
         "# Test 1:\n",
         "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
@@ -78,10 +90,22 @@
         "    print(\"no pair found\")"
       ],
       "metadata": {
-        "id": "XsH-ceDIo88a"
+        "id": "XsH-ceDIo88a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "83b9a518-453d-4922-b040-faca1bb1d4d3"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 10\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -115,10 +139,25 @@
         "    print(\"no pairs found\")"
       ],
       "metadata": {
-        "id": "m-SA0vxQrTyz"
+        "id": "m-SA0vxQrTyz",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "8d7f8266-abf6-46cc-cac9-ee2ac487e7ee"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 9\n",
+            "2 8\n",
+            "3 7\n",
+            "4 6\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -147,10 +186,25 @@
         "  print(\"no pairs found\")"
       ],
       "metadata": {
-        "id": "SgcwKPJ7vjpC"
+        "id": "SgcwKPJ7vjpC",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "305ad27e-88a2-4858-c344-ffa3bfb2703b"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0 8\n",
+            "1 7\n",
+            "2 6\n",
+            "3 5\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -186,10 +240,22 @@
         "print(max_water)"
       ],
       "metadata": {
-        "id": "Scejx3daRgy-"
+        "id": "Scejx3daRgy-",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "64f83514-8994-4820-f8fb-7f48d2a2e780"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "49\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -214,10 +280,22 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "id": "QQ6Y07r6gkUe"
+        "id": "QQ6Y07r6gkUe",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a3838bb2-b848-4fb2-f479-3df865cba85e"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -243,10 +321,22 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "id": "BvRj86xDgnyK"
+        "id": "BvRj86xDgnyK",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "8f0d3534-ec3e-46e5-9989-08093fe92e5f"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 45,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -289,9 +379,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Rv82FGYaufW6",
-        "outputId": "bd54cdf5-3859-4524-d315-8a5b13da34c4"
+        "outputId": "f34678fb-5e58-40aa-b27e-50a9eb1ca14f"
       },
-      "execution_count": 33,
+      "execution_count": 46,
       "outputs": [
         {
           "output_type": "stream",
@@ -304,12 +394,178 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "#This was the brute force\n",
+        "nums=[1,1,2,2,3,7,6,8,8,9,10]\n",
+        "unique = []\n",
+        "\n",
+        "for num in nums:\n",
+        "  if num not in unique:\n",
+        "    unique.append(num)\n",
+        "\n",
+        "print(unique)"
+      ],
       "metadata": {
-        "id": "xoY4z6OIvBWw"
+        "id": "xoY4z6OIvBWw",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "7f52529a-f662-4c06-cc5c-2b9eb05903cd"
       },
-      "execution_count": null,
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 7, 6, 8, 9, 10]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Optimization technique two pointers\n",
+        "\n",
+        "nums=[1,1,2,2,3,7,6,8,8,9,10]\n"
+      ],
+      "metadata": {
+        "id": "V16zAuNMVzAb"
+      },
+      "execution_count": 48,
       "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f1c5c150",
+        "outputId": "76672a33-1678-4337-d355-5fb4a254570e"
+      },
+      "source": [
+        "nums=[1,1,2,2,3,7,6,8,8,9,10]\n",
+        "\n",
+        "# For the two-pointer technique to remove duplicates in-place\n",
+        "# and efficiently, the array is typically assumed to be sorted.\n",
+        "# Let's sort the array first for demonstration purposes.\n",
+        "nums.sort()\n",
+        "print(\"Sorted nums array:\", nums)\n",
+        "\n",
+        "# Initialize two pointers:\n",
+        "# 'i' (slow-runner) will keep track of the last unique element found and its correct position.\n",
+        "# 'j' (fast-runner) will iterate through the array to find new unique elements.\n",
+        "\n",
+        "if not nums: # Handle the edge case of an empty list\n",
+        "    k = 0\n",
+        "else:\n",
+        "    i = 0 # 'i' starts at the first element (index 0), which is always unique initially\n",
+        "    for j in range(1, len(nums)): # 'j' starts from the second element (index 1)\n",
+        "        # If the element at 'j' is different from the element at 'i',\n",
+        "        # it means we found a new unique element.\n",
+        "        if nums[j] != nums[i]:\n",
+        "            i += 1          # Move 'i' forward to the next position\n",
+        "            nums[i] = nums[j] # Place the new unique element at `nums[i]`\n",
+        "    # After the loop, 'i' points to the last unique element's index.\n",
+        "    # So, 'i + 1' gives the total number of unique elements (k).\n",
+        "    k = i + 1\n",
+        "\n",
+        "# The first 'k' elements of the 'nums' array now contain the unique elements.\n",
+        "# The remaining elements beyond index 'k-1' are duplicates and are effectively 'removed'\n",
+        "# by defining the new length 'k'.\n",
+        "print(\"Array after removing duplicates (first k elements are unique):\", nums[:k])\n",
+        "print(\"Number of unique elements (k):\", k)"
+      ],
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sorted nums array: [1, 1, 2, 2, 3, 6, 7, 8, 8, 9, 10]\n",
+            "Array after removing duplicates (first k elements are unique): [1, 2, 3, 6, 7, 8, 9, 10]\n",
+            "Number of unique elements (k): 8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nums=[1,1,2,3,4,5,6,1,2,8,9,4]\n",
+        "\n",
+        "nums.sort()\n",
+        "\n",
+        "unique=[]\n",
+        "\n",
+        "for num in nums:\n",
+        "  if num not in unique:\n",
+        "    unique.append(num)\n",
+        "\n",
+        "print (unique)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oJeHCA-qWB-t",
+        "outputId": "74e42116-6b86-4fd8-ba28-529d0c0747ee"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6, 8, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nums = [1, 1, 2, 3, 4, 5, 6, 1, 2, 8, 9, 4]\n",
+        "print(\"Original:\", nums)\n",
+        "\n",
+        "nums.sort()\n",
+        "print(\"Sorted:\", nums)\n",
+        "\n",
+        "left = 0\n",
+        "\n",
+        "for right in range(1, len(nums)):\n",
+        "    # Corrected condition: Compare nums[right] with nums[left] to ensure uniqueness\n",
+        "    if nums[right] != nums[left]:\n",
+        "        left += 1\n",
+        "        nums[left] = nums[right]\n",
+        "\n",
+        "print(\"Count:\", left + 1)\n",
+        "print(\"Array:\", nums)\n",
+        "print(\"First\", left + 1, \"elements are unique:\", nums[:left + 1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "B9rfBLzAXAjw",
+        "outputId": "bfc6a14d-0163-4f47-95c0-824dec3da82c"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original: [1, 1, 2, 3, 4, 5, 6, 1, 2, 8, 9, 4]\n",
+            "Sorted: [1, 1, 1, 2, 2, 3, 4, 4, 5, 6, 8, 9]\n",
+            "Count: 8\n",
+            "Array: [1, 2, 3, 4, 5, 6, 8, 9, 5, 6, 8, 9]\n",
+            "First 8 elements are unique: [1, 2, 3, 4, 5, 6, 8, 9]\n"
+          ]
+        }
+      ]
     }
   ]
 }
