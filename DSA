@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN3M+z6vyNLK/zR3vo7e5jS",
+      "authorship_tag": "ABX9TyMImZVM8JjtjfL4kfVDLBtQ",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 21,
       "metadata": {
         "id": "nBt6qnXTCura",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "9be9d693-40f8-47ca-cddf-5fc8b282c9bb"
+        "outputId": "23e62ef1-eda7-4c76-a624-c20ce435e4e4"
       },
       "outputs": [
         {
@@ -94,9 +94,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "83b9a518-453d-4922-b040-faca1bb1d4d3"
+        "outputId": "32e4bcce-6c8b-49bd-97a7-eb4317f4da63"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -143,9 +143,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "8d7f8266-abf6-46cc-cac9-ee2ac487e7ee"
+        "outputId": "6796ac95-0469-42b9-b860-63552909b59a"
       },
-      "execution_count": null,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -190,9 +190,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "cb4f5256-328b-4dab-a86a-b744852737c3"
+        "outputId": "01956aa4-d679-4f13-fe6a-e2af4157f96d"
       },
-      "execution_count": null,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -244,9 +244,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "fbe46ea9-1f44-4eba-baf6-d20f6f8c6159"
+        "outputId": "7c569329-2524-4cd4-f09b-d3e297bfc24f"
       },
-      "execution_count": null,
+      "execution_count": 25,
       "outputs": [
         {
           "output_type": "stream",
@@ -284,9 +284,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "a3838bb2-b848-4fb2-f479-3df865cba85e"
+        "outputId": "5bb8d4d5-5eb8-44fb-cf42-fe1142bc58da"
       },
-      "execution_count": null,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
@@ -325,9 +325,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "e9a32307-ccf9-4817-ef00-b9a8c37a3162"
+        "outputId": "cfa10e66-81d6-45ed-e3c7-abe16ec7136d"
       },
-      "execution_count": null,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "stream",
@@ -379,9 +379,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Rv82FGYaufW6",
-        "outputId": "f34678fb-5e58-40aa-b27e-50a9eb1ca14f"
+        "outputId": "44105e61-a06a-427c-9270-9817368de9f4"
       },
-      "execution_count": null,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "stream",
@@ -410,9 +410,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "7f52529a-f662-4c06-cc5c-2b9eb05903cd"
+        "outputId": "fa77629b-f1e8-473a-c257-efd6c682ff6a"
       },
-      "execution_count": null,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -433,7 +433,7 @@
       "metadata": {
         "id": "V16zAuNMVzAb"
       },
-      "execution_count": null,
+      "execution_count": 30,
       "outputs": []
     },
     {
@@ -443,7 +443,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "f1c5c150",
-        "outputId": "76672a33-1678-4337-d355-5fb4a254570e"
+        "outputId": "accc76f8-bf50-49a4-99f7-6a7b6c7edafa"
       },
       "source": [
         "nums=[1,1,2,2,3,7,6,8,8,9,10]\n",
@@ -478,7 +478,7 @@
         "print(\"Array after removing duplicates (first k elements are unique):\", nums[:k])\n",
         "print(\"Number of unique elements (k):\", k)"
       ],
-      "execution_count": null,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "stream",
@@ -511,9 +511,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "oJeHCA-qWB-t",
-        "outputId": "74e42116-6b86-4fd8-ba28-529d0c0747ee"
+        "outputId": "28eb607b-b3ae-4ee3-c43d-7f7e5bf8039a"
       },
-      "execution_count": null,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -550,9 +550,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "B9rfBLzAXAjw",
-        "outputId": "3af43daa-316d-4662-9a07-95bfdd568e66"
+        "outputId": "12a3f838-b684-4390-bdbf-f99bdd6325cc"
       },
-      "execution_count": null,
+      "execution_count": 33,
       "outputs": [
         {
           "output_type": "stream",
@@ -574,22 +574,27 @@
         "new_s=''\n",
         "for char in text:\n",
         "  new_s=char+new_s\n",
-        "print(new_s)"
+        "print(new_s)\n",
+        "if text==new_s:\n",
+        "  print(\"palindrome\")\n",
+        "else:\n",
+        "  print(\"not palindrome\")"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "zDJIods534ca",
-        "outputId": "69475910-440f-45b7-a0a7-0d7b8207c441"
+        "outputId": "dedf6c1d-409f-4869-af39-e58636fc7f5e"
       },
-      "execution_count": null,
+      "execution_count": 34,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "ispoor\n"
+            "ispoor\n",
+            "not palindrome\n"
           ]
         }
       ]
@@ -616,10 +621,58 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "id": "7wtykjLL5nko"
+        "id": "7wtykjLL5nko",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 211
+        },
+        "outputId": "7ab2ec2d-caab-42c9-c843-3751bdafa361"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_5955/1649868103.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mis_palindrome\u001b[0m\u001b[0;34m=\u001b[0m \u001b[0;32mTrue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0;32mwhile\u001b[0m \u001b[0mleft\u001b[0m\u001b[0;34m<\u001b[0m\u001b[0mright\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m   \u001b[0;32mif\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mleft\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m==\u001b[0m\u001b[0mstr\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mright\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m     \u001b[0mis_palindrome\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#q 3 — Find the largest number in a list\n",
+        "\n",
+        "num=[2,3,4,5,10,12,13,22,39,96]\n",
+        "max_num=num[0] #pehle index vale ko hi largest maan lo chalo\n",
+        "for i in range(1,len(num)):\n",
+        "  if num[i]>max_num:\n",
+        "    max_num=num[i]\n",
+        "print(max_num)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rRiDy2S0BrUt",
+        "outputId": "588a1b6f-b653-4a2a-a87c-60b9cdd0ce15"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "96\n"
+          ]
+        }
+      ]
     }
   ]
 }
