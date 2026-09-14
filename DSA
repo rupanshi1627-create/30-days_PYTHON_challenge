@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN0mIcVrCWuAvJEWct7E8ix",
+      "authorship_tag": "ABX9TyO5wl2k4djA+rUN7rYOd4kR",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -647,7 +647,25 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "#given string is palindrome or not\n",
+        "\n",
+        "str='khamoshi'\n",
+        "\n",
+        "#two pointer\n",
+        "left=0\n",
+        "right=len(str)-1\n",
+        "is_palindrome= True\n",
+        "\n",
+        "while left<right:\n",
+        "  if str[left]==str[right]:\n",
+        "    is_palindrome=True\n",
+        "    left+=1\n",
+        "    right-=1\n",
+        "  else:\n",
+        "    is_palindrome=False\n",
+        "print(is_palindrome)"
+      ],
       "metadata": {
         "id": "WKqr70CRERyC"
       },
