@@ -34,7 +34,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "3315d259-0d17-47e5-b39b-fce2da1d2164"
+        "outputId": "5b217ebd-7149-4230-c23d-2fe83aaafab0"
       },
       "outputs": [
         {
@@ -94,7 +94,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "d681132f-1f10-4e06-d399-51fb69f4a1a5"
+        "outputId": "27d399aa-cd80-4f50-dbb7-40b010db2881"
       },
       "execution_count": 2,
       "outputs": [
@@ -143,7 +143,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "ef77f6fd-4213-4662-f960-54fdb33a8ebe"
+        "outputId": "77968c7d-4b81-4c6a-d9be-5554babe93b1"
       },
       "execution_count": 3,
       "outputs": [
@@ -190,7 +190,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "f28c6385-5e9f-4d0a-c906-86092bfa1715"
+        "outputId": "83b0b904-2c85-4d46-a482-0d1e07cc2a8a"
       },
       "execution_count": 4,
       "outputs": [
@@ -244,7 +244,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "5069da30-978d-42ec-8ead-b4c53dc3bb4e"
+        "outputId": "38fa9382-9851-42d4-cf1e-e627f09bae7f"
       },
       "execution_count": 5,
       "outputs": [
@@ -284,7 +284,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "7977b37b-c6ac-44d8-b812-d0c1f24b9774"
+        "outputId": "5061b991-e7b8-4e29-b938-d7d5df832d0c"
       },
       "execution_count": 6,
       "outputs": [
@@ -325,7 +325,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "b02169c4-72a6-4a21-859c-c13e718cefcd"
+        "outputId": "ca68de2e-cde2-4dba-d562-6780a5f2d127"
       },
       "execution_count": 7,
       "outputs": [
@@ -379,7 +379,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Rv82FGYaufW6",
-        "outputId": "d75ef026-28f2-4fe9-f504-299b3e1d95bf"
+        "outputId": "93c830b5-debd-49f1-934c-7f2621af9736"
       },
       "execution_count": 8,
       "outputs": [
@@ -410,7 +410,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "816130e6-b5f3-47f9-a80b-f0da6a47873a"
+        "outputId": "bd942e68-4a43-4502-a349-25d6e6ddaede"
       },
       "execution_count": 9,
       "outputs": [
@@ -443,7 +443,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "f1c5c150",
-        "outputId": "8cbd5f9e-c23e-4989-8352-fb2633e90423"
+        "outputId": "b6b31784-bb5c-4eb8-ed2c-c8008d26ab56"
       },
       "source": [
         "nums=[1,1,2,2,3,7,6,8,8,9,10]\n",
@@ -511,7 +511,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "oJeHCA-qWB-t",
-        "outputId": "c0b1e99a-b6e3-46a0-f7e6-a2c8b772f98a"
+        "outputId": "d71b2f36-7444-492c-9342-e2331d83dba1"
       },
       "execution_count": 12,
       "outputs": [
@@ -550,7 +550,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "B9rfBLzAXAjw",
-        "outputId": "78349bd4-95f2-42eb-a650-0a05e1d73898"
+        "outputId": "135c6417-1383-4d82-a752-3eb40a635d1e"
       },
       "execution_count": 13,
       "outputs": [
@@ -585,7 +585,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "zDJIods534ca",
-        "outputId": "648f1c3c-cd21-4a4c-ce4c-0bc5494f22dd"
+        "outputId": "f68f5055-2358-48ec-ba15-df10e06ae9bb"
       },
       "execution_count": 14,
       "outputs": [
