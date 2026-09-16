@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNv+i1ZAmv6bNRR8X+L7LvX",
+      "authorship_tag": "ABX9TyOFGUEtSNwkcy09TPye+5rS",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -712,9 +712,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "GTCheRR3gOe7",
-        "outputId": "952dbadc-59cb-42f9-a21b-42acfedd9da4"
+        "outputId": "5ffbfbe2-abcb-4e0e-9828-2eb291c4fd94"
       },
-      "execution_count": 8,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -727,6 +727,51 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Question 5 — Count Frequency of a Character\n",
+        "\n",
+        "text=\"programming\"\n",
+        "#create an empty dictonary\n",
+        "frequency ={}\n",
+        "\n",
+        "for char in text:\n",
+        "  if char in frequency:\n",
+        "    frequency[char]+=1\n",
+        "  else:\n",
+        "    frequency[char]=1\n",
+        "print(frequency)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XfW30HUXh_cP",
+        "outputId": "2cb22025-2f25-40df-f768-b35cee0f4453"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'p': 1, 'r': 2, 'o': 1, 'g': 2, 'a': 1, 'm': 2, 'i': 1, 'n': 1}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fr"
+      ],
+      "metadata": {
+        "id": "gWeiV1PVkjHo"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
