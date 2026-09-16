@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO5wl2k4djA+rUN7rYOd4kR",
+      "authorship_tag": "ABX9TyNv+i1ZAmv6bNRR8X+L7LvX",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
         "id": "nBt6qnXTCura",
         "colab": {
@@ -96,7 +96,7 @@
         },
         "outputId": "27d399aa-cd80-4f50-dbb7-40b010db2881"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -145,7 +145,7 @@
         },
         "outputId": "77968c7d-4b81-4c6a-d9be-5554babe93b1"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -192,7 +192,7 @@
         },
         "outputId": "83b0b904-2c85-4d46-a482-0d1e07cc2a8a"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -246,7 +246,7 @@
         },
         "outputId": "38fa9382-9851-42d4-cf1e-e627f09bae7f"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -286,7 +286,7 @@
         },
         "outputId": "5061b991-e7b8-4e29-b938-d7d5df832d0c"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -327,7 +327,7 @@
         },
         "outputId": "ca68de2e-cde2-4dba-d562-6780a5f2d127"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -381,7 +381,7 @@
         "id": "Rv82FGYaufW6",
         "outputId": "93c830b5-debd-49f1-934c-7f2621af9736"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -412,7 +412,7 @@
         },
         "outputId": "bd942e68-4a43-4502-a349-25d6e6ddaede"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -433,7 +433,7 @@
       "metadata": {
         "id": "V16zAuNMVzAb"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -478,7 +478,7 @@
         "print(\"Array after removing duplicates (first k elements are unique):\", nums[:k])\n",
         "print(\"Number of unique elements (k):\", k)"
       ],
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -513,7 +513,7 @@
         "id": "oJeHCA-qWB-t",
         "outputId": "d71b2f36-7444-492c-9342-e2331d83dba1"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -552,7 +552,7 @@
         "id": "B9rfBLzAXAjw",
         "outputId": "135c6417-1383-4d82-a752-3eb40a635d1e"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -587,7 +587,7 @@
         "id": "zDJIods534ca",
         "outputId": "f68f5055-2358-48ec-ba15-df10e06ae9bb"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -667,10 +667,66 @@
         "print(is_palindrome)"
       ],
       "metadata": {
-        "id": "WKqr70CRERyC"
+        "id": "WKqr70CRERyC",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 211
+        },
+        "outputId": "5b384a8f-1133-45c9-cff2-4c3caf2dd81b"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2156/1649868103.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mis_palindrome\u001b[0m\u001b[0;34m=\u001b[0m \u001b[0;32mTrue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0;32mwhile\u001b[0m \u001b[0mleft\u001b[0m\u001b[0;34m<\u001b[0m\u001b[0mright\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m   \u001b[0;32mif\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mleft\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m==\u001b[0m\u001b[0mstr\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mright\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m     \u001b[0mis_palindrome\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Count vowels\n",
+        "\n",
+        "text = \"programming\"\n",
+        "vowels=\"aeiou\"\n",
+        "count=0\n",
+        "\n",
+        "for char in text:\n",
+        "  if char in vowels:\n",
+        "    #print(char)\n",
+        "    count+=1\n",
+        "    print(char)\n",
+        "print(count)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GTCheRR3gOe7",
+        "outputId": "952dbadc-59cb-42f9-a21b-42acfedd9da4"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "o\n",
+            "a\n",
+            "i\n",
+            "3\n"
+          ]
+        }
+      ]
     }
   ]
 }
