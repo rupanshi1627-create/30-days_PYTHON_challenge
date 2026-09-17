@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPIywYBZr5BJOiQzY7autRJ",
+      "authorship_tag": "ABX9TyOw0xbTpsZSV61EK7TCgehi",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -781,9 +781,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "6ceaa809-65c1-4eaa-c3b1-e8186e8e0e1f"
+        "outputId": "592b5280-7614-48e3-dda7-f3a2f3cb30b4"
       },
-      "execution_count": 2,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -795,6 +795,46 @@
             "4\n",
             "5\n",
             "[1, 2, 3, 4, 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers = [10, 25, 7, 40, 15, 40]\n",
+        "\n",
+        "# Initialize largest and second_largest to a very small number\n",
+        "# or handle edge cases like an empty list or a list with only one element.\n",
+        "# Assuming the list has at least two numbers.\n",
+        "\n",
+        "largest = -float('inf')\n",
+        "second_largest = -float('inf')\n",
+        "\n",
+        "for num in numbers:\n",
+        "    if num > largest:\n",
+        "        second_largest = largest # The previous largest is now the second largest\n",
+        "        largest = num            # Update largest\n",
+        "    elif num > second_largest and num != largest:\n",
+        "        # If num is not the largest, but is greater than the current second_largest\n",
+        "        second_largest = num\n",
+        "\n",
+        "print(second_largest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oGEMqTn5Aeki",
+        "outputId": "00f5efe3-e9b8-4db3-c6c0-f3012b2cf509"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25\n"
           ]
         }
       ]
