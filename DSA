@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOFGUEtSNwkcy09TPye+5rS",
+      "authorship_tag": "ABX9TyPIywYBZr5BJOiQzY7autRJ",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -674,7 +674,7 @@
         },
         "outputId": "5b384a8f-1133-45c9-cff2-4c3caf2dd81b"
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "error",
@@ -714,7 +714,7 @@
         "id": "GTCheRR3gOe7",
         "outputId": "5ffbfbe2-abcb-4e0e-9828-2eb291c4fd94"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -751,7 +751,7 @@
         "id": "XfW30HUXh_cP",
         "outputId": "2cb22025-2f25-40df-f768-b35cee0f4453"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -765,13 +765,39 @@
     {
       "cell_type": "code",
       "source": [
-        "fr"
+        "#Question 6 — Remove Duplicates from a List\n",
+        "\n",
+        "numbers = [1, 2, 2, 3, 4, 4, 5, 5, 5]\n",
+        "unique=[]\n",
+        "\n",
+        "for num in numbers:\n",
+        "  if num not in unique:\n",
+        "    unique.append(num)\n",
+        "    print(num)\n",
+        "print (unique)\n"
       ],
       "metadata": {
-        "id": "gWeiV1PVkjHo"
+        "id": "gWeiV1PVkjHo",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6ceaa809-65c1-4eaa-c3b1-e8186e8e0e1f"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "[1, 2, 3, 4, 5]\n"
+          ]
+        }
+      ]
     }
   ]
 }
