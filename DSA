@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOw0xbTpsZSV61EK7TCgehi",
+      "authorship_tag": "ABX9TyNNrP1KnW6WiTnHl387MfJe",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -812,28 +812,69 @@
         "second_largest = -float('inf')\n",
         "\n",
         "for num in numbers:\n",
+        "    # If the current number is greater than the current largest\n",
         "    if num > largest:\n",
-        "        second_largest = largest # The previous largest is now the second largest\n",
-        "        largest = num            # Update largest\n",
+        "        # The old largest becomes the new second largest\n",
+        "        second_largest = largest\n",
+        "        # The current number becomes the new largest\n",
+        "        largest = num\n",
+        "    # If the current number is not the largest, but is greater than the current second largest\n",
+        "    # AND it's not equal to the largest (to find a distinct second largest)\n",
         "    elif num > second_largest and num != largest:\n",
-        "        # If num is not the largest, but is greater than the current second_largest\n",
         "        second_largest = num\n",
         "\n",
-        "print(second_largest)"
+        "print(second_largest)\n",
+        "\n",
+        "# --- Alternative approach: Initializing with the first number in the list ---\n",
+        "numbers = [10, 25, 7, 40, 15, 40]\n",
+        "\n",
+        "# Handle edge case: list must have at least two distinct elements for a meaningful second largest.\n",
+        "if len(numbers) < 2:\n",
+        "    print(\"List must contain at least two numbers to find a second largest.\")\n",
+        "else:\n",
+        "    # Initialize largest with the first element.\n",
+        "    # Initialize second_largest as None, indicating it hasn't been found yet.\n",
+        "    largest = numbers[0]\n",
+        "    second_largest = None\n",
+        "\n",
+        "    # Iterate through the numbers, starting from the second element.\n",
+        "    # The first element is already used for 'largest' initialization.\n",
+        "    for num in numbers[1:]:\n",
+        "        # If the current number is greater than the current largest\n",
+        "        if num > largest:\n",
+        "            # The old largest becomes the new second_largest\n",
+        "            second_largest = largest\n",
+        "            # The current number becomes the new largest\n",
+        "            largest = num\n",
+        "        # If the current number is not the largest (i.e., num < largest)\n",
+        "        # AND it's greater than the current second_largest (if one exists)\n",
+        "        # OR if second_largest is still None (meaning no second largest found yet)\n",
+        "        # Then, num could be our new second_largest.\n",
+        "        elif num < largest and (second_largest is None or num > second_largest):\n",
+        "            second_largest = num\n",
+        "\n",
+        "    # After iterating, print the second_largest found.\n",
+        "    if second_largest is not None:\n",
+        "        print(second_largest)\n",
+        "    else:\n",
+        "        # This case handles scenarios like [5, 5, 5] where no distinct second largest is found,\n",
+        "        # or if the list had only two elements and they were both the same.\n",
+        "        print(\"No distinct second largest number found.\")"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "oGEMqTn5Aeki",
-        "outputId": "00f5efe3-e9b8-4db3-c6c0-f3012b2cf509"
+        "outputId": "6ff74458-7bf3-43d3-c903-3a2e1aa3eefc"
       },
-      "execution_count": 5,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
+            "25\n",
             "25\n"
           ]
         }
