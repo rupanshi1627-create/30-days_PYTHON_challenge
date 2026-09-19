@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNNrP1KnW6WiTnHl387MfJe",
+      "authorship_tag": "ABX9TyOlnmWqRrG5/RsovaRncnXA",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -866,9 +866,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "oGEMqTn5Aeki",
-        "outputId": "6ff74458-7bf3-43d3-c903-3a2e1aa3eefc"
+        "outputId": "09427b86-5496-4ab1-f526-13e5fd2a9efe"
       },
-      "execution_count": 8,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -876,6 +876,41 @@
           "text": [
             "25\n",
             "25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#find missing number\n",
+        "numbers = [1, 2, 4, 5]\n",
+        "last_num = 5\n",
+        "total_num_inlist=numbers[-1]\n",
+        "expected_sum = last_num * (last_num + 1) // 2\n",
+        "actual_sum = 0\n",
+        "\n",
+        "for num in numbers:\n",
+        "    actual_sum += num\n",
+        "\n",
+        "missing = expected_sum - actual_sum\n",
+        "\n",
+        "print(missing)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mq8KDjBvMths",
+        "outputId": "1b7c9a35-1a50-46f8-a4ea-91a0c52ca793"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
           ]
         }
       ]
