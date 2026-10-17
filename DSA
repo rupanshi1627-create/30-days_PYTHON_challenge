@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOlnmWqRrG5/RsovaRncnXA",
+      "authorship_tag": "ABX9TyPOqg8TGWx/e9LIoFnxxFrx",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -783,7 +783,7 @@
         },
         "outputId": "592b5280-7614-48e3-dda7-f3a2f3cb30b4"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -868,7 +868,7 @@
         "id": "oGEMqTn5Aeki",
         "outputId": "09427b86-5496-4ab1-f526-13e5fd2a9efe"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -902,9 +902,162 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mq8KDjBvMths",
-        "outputId": "1b7c9a35-1a50-46f8-a4ea-91a0c52ca793"
+        "outputId": "f8049554-e83d-4e5f-bc6a-8419ca100180"
       },
-      "execution_count": 11,
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers=[5,2,3,1,5]\n",
+        "seen=set() # Initialize an empty set\n",
+        "\n",
+        "for num in numbers:\n",
+        "  if num in seen:\n",
+        "    has_duplicate = True\n",
+        "    break # Found a duplicate, no need to check further\n",
+        "  seen.add(num)\n",
+        "\n",
+        "print(has_duplicate) # Print the result once at the end"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YAxJIo0FfWKu",
+        "outputId": "34d89855-fc4d-4faf-e4e9-5a54d0da064e"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def print_numbers(n):\n",
+        "  if n==0:\n",
+        "    return\n",
+        "  print_numbers(n-1)\n",
+        "  print(n)\n",
+        "print_numbers(5)\n",
+        "\n",
+        "\n",
+        "def print_numbers(n):\n",
+        "  print_numbers(5)\n",
+        "  if n!=0\n",
+        "  print_numbers(n-1)\n",
+        "  else n==0:\n",
+        "    return"
+      ],
+      "metadata": {
+        "id": "-FFxCvi6fYOf",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 111
+        },
+        "outputId": "01c7a9cc-c51d-4a50-d486-bef0bddf93ba"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "expected ':' (85936192.py, line 11)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1554/85936192.py\"\u001b[0;36m, line \u001b[0;32m11\u001b[0m\n\u001b[0;31m    if n!=0\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "##STACK"
+      ],
+      "metadata": {
+        "id": "5Dqpjwj9UQcY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers=[17,6,8,91,15,7]\n",
+        "#find the second largest number\n",
+        "largest=numbers[0]\n",
+        "second_largest = float('-inf')\n",
+        "for num in numbers:\n",
+        "    if num > largest:\n",
+        "        second_largest = largest\n",
+        "        largest = num\n",
+        "\n",
+        "    elif num > second_largest and num < largest:\n",
+        "        second_largest = num\n",
+        "\n",
+        "print(second_largest)\n",
+        "print(largest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YdOe2o_wURaz",
+        "outputId": "efc5116f-a06d-43fd-89f7-3b3a8e2e6e83"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "17\n",
+            "91\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3 Find missing number\n",
+        "\n",
+        "numbers = [1, 2, 4, 5, 6]\n",
+        "\n",
+        "n = len(numbers) + 1\n",
+        "\n",
+        "total = n*(n+1)/2\n",
+        "\n",
+        "actual_sum = sum(numbers)\n",
+        "\n",
+        "missing_num = total-actual_sum\n",
+        "\n",
+        "print(int(missing_num))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-1vavan6UU0m",
+        "outputId": "ee81e72d-7f85-425b-ab79-3d25f1399502"
+      },
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
